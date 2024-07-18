@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romance Writers of America Conference</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .countdown {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #DB2777;
+        }
+    </style>
+</head>
+<body class="bg-pink-100">
+<div class="min-h-screen flex flex-col justify-center items-center">
+    <header class="text-center mb-12">
+        <div class="w-full max-w-4xl mx-auto mb-8">
+            <img src="/logo2024-Fall3.jpg" alt="Conference Header Image" class="w-full h-auto rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-5xl font-extrabold text-pink-600 mb-4">Romance Writers of America Conference</h1>
+        <p class="text-xl text-gray-700">Join us for a weekend of inspiration, creativity, and romance!</p>
+    </header>
+
+    <section class="bg-white shadow-lg rounded-lg p-8 w-full max-w-xl">
+        <h2 class="text-3xl font-bold text-pink-600 mb-4">Registration Coming Soon</h2>
+        <div id="countdown" class="countdown mb-6"></div>
+        <p class="text-gray-700 mb-6">Get ready to immerse yourself in the world of romance writing. Stay tuned for more details about speakers, workshops, and special events.</p>
+<!--        <form class="flex flex-col items-center">-->
+<!--            <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600">-->
+<!--            <button class="w-full bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-600">Notify Me</button>-->
+<!--        </form>-->
+    </section>
+
+    <footer class="mt-12 text-gray-600">
+        <p>© 2024 Romance Writers of America. All rights reserved.</p>
+    </footer>
+</div>
+
+<script>
+    function countdownTimer(targetDate) {
+        const countdownElement = document.getElementById('countdown');
+        const targetTime = new Date(targetDate).getTime();
+
+        const updateTimer = () => {
+            const now = new Date().getTime();
+            const distance = targetTime - now;
+
+            if (distance < 0) {
+                countdownElement.innerHTML = "The event has started!";
+                clearInterval(interval);
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        };
+
+        updateTimer();
+        const interval = setInterval(updateTimer, 1000);
+    }
+
+    countdownTimer('2024-07-24T00:00:00');
+</script>
+</body>
+</html>
