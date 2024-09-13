@@ -1,6 +1,6 @@
 <x-guest-layout>
     <section>
-        Speakers
+        <img src="/images/Scavenger Hunt.png" />
     </section>
 </x-guest-layout>
 
