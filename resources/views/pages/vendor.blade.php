@@ -1,6 +1,6 @@
-<x-guest-layout>
+<x-layouts.guest>
 <section>
     Vendor
 </section>
-</x-guest-layout>
+</x-layouts.guest>
 

@@ -65,7 +65,7 @@
         {{ $slot }}
     </main>
 
-    {{--        @livewireScripts--}}
+    @livewireScripts
     <footer class="mt-12 text-gray-600">
         <p>© 2024 Romance Writers of America. All rights reserved.</p>
     </footer>

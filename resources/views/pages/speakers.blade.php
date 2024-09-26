@@ -1,6 +1,6 @@
-<x-guest-layout>
+<x-layouts.guest>
     <section>
         Speakers
     </section>
-</x-guest-layout>
+</x-layouts.guest>
 

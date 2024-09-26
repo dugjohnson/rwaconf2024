@@ -1,8 +1,13 @@
-<x-guest-layout>
+<x-layouts.guest>
 <section class="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl">
     <h2 class="text-3xl font-bold text-pink-600 mb-4">Registration is Open!</h2>
-    <p>Before you go to the registration site, please read the following refund policy.</p>
-    <div class="bg-slate  p-6">
+    <div x-data="{open:false}">
+        <p>Before you go to the registration site
+            <button class="bg-blue-300 hover:bg-blue-800focus:outline-none
+            text-slate font-semibold h-12 px-6 rounded-lg flex items-center justify-center
+                    sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400"
+                    x-on:click="open = ! open">please click to read the refund policy</button></p>
+    <div class="bg-slate  p-6"  x-show="open">
         <p class="text-gray-700 mb-6">Refunds requested between September 1 and September 30 shall be granted,
             less a $150 processing fee. No refunds after September 30.</p>
 
@@ -22,6 +27,7 @@
             acts of terrorism, then the member may use the comped fee the following year, subject to payment of the
             processing fee and any increase in registration fees, upon submission of written medical proof. The
             comped fee is not transferable to another individual.</p>
+    </div>
     </div>
     <p>You will be able to buy a ticket for the conference and indicate your preferences for meals. You will be able
         to pay for your ticket(s) in the next few days, but you can sign up for them now.
@@ -67,4 +73,4 @@
 
 {{--    countdownTimer('2024-07-24T09:00:00');--}}
 {{--</script>--}}
-</x-guest-layout>
+</x-layouts.guest>
