@@ -21,6 +21,14 @@
                         <h3 class="mt-4 text-sm text-gray-700">Conference Sign and Pro Retreat</h3>
                         <p class="mt-1 text-lg font-medium text-gray-900">Clair Brett</p>
                     </a>
+                    <a href="https://www.clairbrett.com/" target="_blank" class="group">
+                        <div class="w-full overflow-hidden rounded-lg bg-gray-200">
+                            <img src="/images/sponsors/klytics.jpg" alt="K-Lytics"
+                                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+                        </div>
+                        <h3 class="mt-4 text-sm text-gray-700">Bronze</h3>
+                        <p class="mt-1 text-lg font-medium text-gray-900">K-Lytics</p>
+                    </a>
                     <a href="https://www.lararwa.com/" target="_blank" class="group">
                         <div class="w-full overflow-hidden rounded-lg bg-gray-200 ">
                             <img src="/images/sponsors/lararwa.jpg" alt=""

@@ -61,7 +61,7 @@
             </div>
         </nav>
     </header>
-    <main class="font-sans text-gray-900 antialiased min-h-screen">
+    <main class="font-sans text-gray-900 antialiased">
         {{ $slot }}
     </main>
 
