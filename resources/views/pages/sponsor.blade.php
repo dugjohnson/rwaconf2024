@@ -28,7 +28,7 @@
                             <img src="/images/sponsors/klytics.jpg" alt="K-Lytics"
                                  class="h-full w-full object-cover object-center group-hover:opacity-75">
                         </div>
-                        <h3 class="mt-4 text-sm text-gray-700">Bronze</h3>
+                        <h3 class="mt-4 text-sm text-gray-700">co-sponsor WiFi</h3>
                         <p class="mt-1 text-lg font-medium text-gray-900">K-Lytics</p>
                     </a>
                     <a href="https://www.lararwa.com/" target="_blank" class="group">
@@ -52,7 +52,7 @@
                             <img src="/images/sponsors/scventures.jpg" alt=""
                                  class="h-full w-full object-cover object-center group-hover:opacity-75">
                         </div>
-                        <h3 class="mt-4 text-sm text-gray-700">WiFi</h3>
+                        <h3 class="mt-4 text-sm text-gray-700">co-sponsor WiFi</h3>
                         <p class="mt-1 text-lg font-medium text-gray-900">SC Ventures</p>
                     </a>
                     <a href="https://tulepublishing.com/" target="_blank" class="group">
