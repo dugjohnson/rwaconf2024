@@ -76,7 +76,7 @@
                     more details about speakers, workshops, and special events.</p>
 
 
-                <h2 class="text-3xl mt-4 font-extrabold text-pink-600 mb-4"><strong>Cyber Sale</strong> December 2 - 9
+                <h2 class="text-3xl mt-4 font-extrabold text-pink-600 mb-4"><strong>Cyber Sale</strong> December 2 - 8
                     Big
                     Savings on Registration for a career changing event</h2>
                 <h3 class="text-xl font-bold text-pink-800 mb-4">Countdown to Savings</h3>
