@@ -3,10 +3,18 @@
         @if((Carbon\Carbon::now()>= Carbon\Carbon::create(2024,12,2,0,0,0,'America/Chicago')))
             <div>
                 <h2 class="text-3xl font-bold text-pink-600 mb-4">Registration is Open!</h2>
-
-                <p>You will be able to buy a ticket for the conference and indicate your preferences for meals. You will
-                    be able to pay for your ticket(s) in the next few days, but you can sign up for them now.
-                    Your registration will not be complete until payment is received.</p>
+                <div>
+                    <h3 class="text-2xl font-bold text-pink-600 mb-4">Cyber Sale December 2-8</h3>
+                    <ul>
+                        <li>Member: $399 *</li>
+                        <li>Non Member:$499 *</li>
+                        <li>Industry Professional: $299 *</li>
+                    </ul>
+                </div>
+                <div class="py-4"><p>* A payment plan is available This option includes a $26 convenience fee.</p></div>
+{{--                <p>You will be able to buy a ticket for the conference and indicate your preferences for meals. You will--}}
+{{--                    be able to pay for your ticket(s) in the next few days, but you can sign up for them now.--}}
+{{--                    Your registration will not be complete until payment is received.</p>--}}
                 <p><a href="https://conference.rwaconference.org/e/2/romance-writers-of-america-conference-2025"
                       class="bg-blue-300 hover:bg-blue-800focus:outline-none text-2xl text-slate-800
             text-slate font-semibold h-12 px-6 rounded-lg flex items-center justify-center
