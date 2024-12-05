@@ -8,7 +8,9 @@
                     be able to pay for your ticket(s) in the next few days, but you can sign up for them now.
                     Your registration will not be complete until payment is received.</p>
                 <p><a href="https://conference.rwaconference.org/e/2/romance-writers-of-america-conference-2025"
-                      class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Proceed to the
+                      class="bg-blue-300 hover:bg-blue-800focus:outline-none text-2xl text-slate-800
+            text-slate font-semibold h-12 px-6 rounded-lg flex items-center justify-center
+                    sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400">Proceed to the
                         conference registration area</a></p>
                 <p class="text-gray-700 mb-6">Get ready to immerse yourself in the world of romance writing. Stay tuned
                     for more details about speakers, workshops, and special events.</p>
