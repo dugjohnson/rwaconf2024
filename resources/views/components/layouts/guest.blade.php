@@ -20,7 +20,7 @@
             <img src="/images/RWAConf2025LocationGraphic.png" alt="Conference Header Image" class="w-96 h-auto rounded-lg shadow-lg">
         </div>
         <h1 class="text-5xl font-extrabold text-pink-600 mb-4">Romance Writers of America Annual Conference</h1>
-        <p class="text-xl text-gray-700">Join us for a weekend of inspiration, creativity, and romance!</p>
+        <p class="text-xl text-gray-700">Join us for inspiration and creativity! Celebrating the Voices of Romance Together!</p>
 {{--        <nav class="flex items-center justify-between flex-wrap mx-auto my-6 max-w-container px-4 sm:px-6 lg:px-8">--}}
 {{--            <div class="relative flex items-center">--}}
 {{--                <div class="ml-auto hidden lg:flex lg:items-center">--}}
