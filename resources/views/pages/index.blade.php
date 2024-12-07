@@ -27,7 +27,7 @@
                             <ul>
                                 <li>Member: $399 *</li>
                                 <li>Non Member:$499 *</li>
-                                <li>Industry Professional (Literary Agent or Publishing Company Editor)  $299 *</li>
+                                <li>Industry Professional (Literary Agent or Publishing Company Editor):  $299 *</li>
                             </ul>
                         </div>
                         <div class="mb-2">
@@ -36,7 +36,7 @@
                             <ul>
                                 <li>Member: $450 *</li>
                                 <li>Non Member:$399 *</li>
-                                <li>Industry Professional (Literary Agent or Publishing Company Editor)  $350 *</li>
+                                <li>Industry Professional (Literary Agent or Publishing Company Editor):  $350 *</li>
                             </ul>
                         </div>
                         <div class="mb-2">
@@ -45,7 +45,7 @@
                             <ul>
                                 <li>Member: $499 *</li>
                                 <li>Non Member:$599 *</li>
-                                <li>Industry Professional (Literary Agent or Publishing Company Editor)  $399 *</li>
+                                <li>Industry Professional (Literary Agent or Publishing Company Editor):  $399 *</li>
                             </ul>
                         </div>
                         <div class="mb-2">
@@ -54,7 +54,7 @@
                             <ul>
                                 <li>Member: $549 *</li>
                                 <li>Non Member:$649 *</li>
-                                <li>Industry Professional (Literary Agent or Publishing Company Editor)  $449 *</li>
+                                <li>Industry Professional (Literary Agent or Publishing Company Editor):  $449 *</li>
                             </ul>
                         </div>
                         <div class="py-4"><p>* A payment plan is available This option includes a $26 convenience
