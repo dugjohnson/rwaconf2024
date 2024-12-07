@@ -1,8 +1,17 @@
 <x-layouts.guest>
     <section class="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl">
         <div>
+
             <h2 class="text-3xl font-bold text-pink-600 mb-4">Registration is now open!</h2>
-            <h3 class="text-2xl font-bold text-pink-600 mb-4">Cyber Sale Registration December 2 - December 8</h3>
+            @if((Carbon\Carbon::now()<= Carbon\Carbon::create(2024,12,9,0,0,0,'America/Chicago')))
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Cyber Sale Registration December 2 - December 8</h3>
+            @elseif((Carbon\Carbon::now()<= Carbon\Carbon::create(2025,2,15,0,0,0,'America/Chicago')))
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Early Bird Registration December 9 - February 14</h3>
+            @elseif((Carbon\Carbon::now()<= Carbon\Carbon::create(2025,4,3,0,0,0,'America/Chicago')))
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Regular Registration February 15 - April 2</h3>
+            @else
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Late Registration April 3 - Conference Dates</h3>
+            @endif
 
             <div x-data="{open:false}">
                 <button class="bg-blue-300 hover:bg-blue-800 focus:outline-none  mb-8
@@ -13,7 +22,8 @@
                 <div class="bg-slate" x-show="open">
                     <div class="mb-2">
                         <div class="mb-2">
-                            <h3 class="text-2xl font-bold text-pink-600 ">Cyber Sale Registration December 2 - December 8</h3>
+                            <h3 class="text-2xl font-bold text-pink-600 ">Cyber Sale Registration December 2 - December
+                                8</h3>
                             <ul>
                                 <li>Member: $399 *</li>
                                 <li>Non Member:$499 *</li>
@@ -21,7 +31,8 @@
                             </ul>
                         </div>
                         <div class="mb-2">
-                            <h3 class="text-2xl font-bold text-pink-600 ">Early Bird Registration December 9 - February 14</h3>
+                            <h3 class="text-2xl font-bold text-pink-600 ">Early Bird Registration December 9 - February
+                                14</h3>
                             <ul>
                                 <li>Member: $450 *</li>
                                 <li>Non Member:$399 *</li>
@@ -29,7 +40,8 @@
                             </ul>
                         </div>
                         <div class="mb-2">
-                            <h3 class="text-2xl font-bold text-pink-600 ">Regular Registration February 15 - April 2</h3>
+                            <h3 class="text-2xl font-bold text-pink-600 ">Regular Registration February 15 - April
+                                2</h3>
                             <ul>
                                 <li>Member: $499 *</li>
                                 <li>Non Member:$599 *</li>
@@ -37,7 +49,8 @@
                             </ul>
                         </div>
                         <div class="mb-2">
-                            <h3 class="text-2xl font-bold text-pink-600 ">Late Registration April 3 - Conference Dates</h3>
+                            <h3 class="text-2xl font-bold text-pink-600 ">Late Registration April 3 - Conference
+                                Dates</h3>
                             <ul>
                                 <li>Member: $549 *</li>
                                 <li>Non Member:$649 *</li>
