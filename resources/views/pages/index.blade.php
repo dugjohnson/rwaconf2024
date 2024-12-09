@@ -52,9 +52,9 @@
                             <h3 class="text-2xl font-bold text-pink-600 ">Late Registration April 3 - Conference
                                 Dates</h3>
                             <ul>
-                                <li>Member: $549 *</li>
-                                <li>Non Member:$649 *</li>
-                                <li>Industry Professional (Literary Agent or Publishing Company Editor):  $449 *</li>
+                                <li>Member: $549</li>
+                                <li>Non Member:$649</li>
+                                <li>Industry Professional (Literary Agent or Publishing Company Editor):  $449</li>
                             </ul>
                         </div>
                         <div class="py-4"><p>* A payment plan is available This option includes a $26 convenience
