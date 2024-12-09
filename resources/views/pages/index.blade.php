@@ -35,7 +35,7 @@
                                 14</h3>
                             <ul>
                                 <li>Member: $450 *</li>
-                                <li>Non Member:$399 *</li>
+                                <li>Non Member:$550 *</li>
                                 <li>Industry Professional (Literary Agent or Publishing Company Editor):  $350 *</li>
                             </ul>
                         </div>
