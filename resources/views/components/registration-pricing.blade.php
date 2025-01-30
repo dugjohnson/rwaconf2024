@@ -1,10 +1,11 @@
 <div {{ $attributes }} >
-    <button class="bg-blue-300 hover:bg-blue-800 focus:outline-none  mb-8
+    <flux:modal.trigger name="registration">
+    <flux:button class="!bg-blue-300 hover:!bg-blue-800 focus:outline-none  mb-8
             text-slate font-semibold h-12 px-6 rounded-lg flex items-center justify-center
-                    sm:w-auto hover:text-slate-100"
-            x-on:click="registration = ! registration; if(registration) hotel=false">Registration ticket sale prices
-    </button>
-    <div class="bg-slate w-[600px]" x-show="registration">
+                    sm:w-auto hover:text-slate-100">Registration ticket sale prices
+    </flux:button>
+    </flux:modal.trigger>
+    <flux:modal name="registration" class="bg-slate">
         <div class="mb-2">
             <div class="mb-2">
                 <h3 class="text-2xl font-bold text-pink-600 ">Cyber Sale Registration December 2 - December
@@ -50,5 +51,5 @@
                     fee.</p></div>
 
         </div>
-    </div>
+    </flux:modal>
 </div>

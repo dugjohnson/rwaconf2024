@@ -12,6 +12,10 @@
             color: #DB2777;
         }
     </style>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" rel="stylesheet" />
+
+    @fluxStyles
 </head>
 <body class="bg-pink-100">
 <div class="min-h-screen flex flex-col justify-center items-center">
@@ -70,5 +74,6 @@
         <p>© 2024-2025 Romance Writers of America. All rights reserved.</p>
     </footer>
 </div>
+@fluxScripts
 </body>
 </html>
