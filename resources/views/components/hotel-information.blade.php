@@ -13,7 +13,7 @@
                 <ul>
                     <li>Room Block Dates: July 14-July 20</li>
                     <li>Room Rates:</li>
-                    <ul class="list-disc">
+                    <ul class="list-disc list-inside">
                         <li>Traditional: $255 CAD plus applicable taxes (single or double occupancy)</li>
                         <li>Upper Fallsview: $335 CAD plus applicable taxes (single or double occupancy)</li>
                         <li>Triple and quadruple accommodations, when available, is at an additional rate of $25 CAD per
