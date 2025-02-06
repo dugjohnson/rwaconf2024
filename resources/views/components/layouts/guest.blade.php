@@ -50,9 +50,9 @@
 {{--                    focus:ring-offset-pink-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center--}}
 {{--                    sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400" href="/author">Author Table Sign-up</a>--}}
 
-{{--                    <a class="ml-8 bg-pink-600 hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2--}}
-{{--                    focus:ring-offset-pink-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center--}}
-{{--                    sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400" href="/vendor">Vendor Sign-up</a>--}}
+                    <a class="ml-8 bg-pink-600 hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2
+                    focus:ring-offset-pink-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center
+                    sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400" href="/signup-sponsor">Sponsor Sign-up</a>
 
                     <a class="ml-8 bg-pink-600 hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2
                     focus:ring-offset-pink-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center
