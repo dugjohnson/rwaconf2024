@@ -28,8 +28,7 @@
                 </ul>
             </div>
             <div class="mb-2">
-                <h3 class="text-2xl font-bold text-pink-600 ">Regular Registration February 15 - April
-                    2</h3>
+                <h3 class="text-2xl font-bold text-pink-600 ">Regular Registration February 15 - May 31</h3>
                 <ul>
                     <li>Member: $499 <sub class="text-2xl text-pink-600">&ast;</sub></li>
                     <li>Non Member:$599 <sub class="text-2xl text-pink-600">&ast;</sub></li>
@@ -38,7 +37,7 @@
                 </ul>
             </div>
             <div class="mb-2">
-                <h3 class="text-2xl font-bold text-pink-600 ">Late Registration April 3 - Conference
+                <h3 class="text-2xl font-bold text-pink-600 ">Late Registration June 1 - Conference
                     Dates</h3>
                 <ul>
                     <li>Member: $549</li>
