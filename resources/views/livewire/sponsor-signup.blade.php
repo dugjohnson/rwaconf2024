@@ -5,29 +5,13 @@
         </p>
         <form wire:submit="sendForm">
             <flux:input wire:model="company_name" label="Company Name" badge="Required"/>
-            @error('company_name')
-            <div class="flux-ui-alert flux-ui-alert-danger">{{ $message }}</div>
-            @enderror
-
             <flux:input wire:model="contact_name" label="Contact Name" badge="Required"/>
-            @error('contact_name')
-            <div class="flux-ui-alert flux-ui-alert-danger">{{ $message }}</div>
-            @enderror
             <flux:input wire:model="contact_phone" label="Contact Phone" badge="Required"/>
-            @error('contact_phone')
-            <div class="flux-ui-alert flux-ui-alert-danger">{{ $message }}</div>
-            @enderror
             <flux:input wire:model="contact_email" label="Contact Email" badge="Required"/>
-            @error('contact_email')
-            <div class="flux-ui-alert flux-ui-alert-danger">{{ $message }}</div>
-            @enderror
             <flux:input wire:model="website" label="Website" badge="optional"/>
 
             <flux:checkbox.group wire:model="sponsorships" label="Sponsorships"
                                  description="Select all you may be interested in" badge="Required">
-                @error('sponsorships')
-                <div class="flux-ui-alert flux-ui-alert-danger">{{ $message }}</div>
-                @enderror
                 <flux:checkbox label="Bronze" value="bronze"/>
                 <flux:checkbox label="Silver" value="silver"/>
                 <flux:checkbox label="Gold" value="gold"/>

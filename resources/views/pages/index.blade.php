@@ -6,10 +6,10 @@
                 <h3 class="text-2xl font-bold text-pink-600 mb-4">Cyber Sale Registration December 2 - December 8</h3>
             @elseif((Carbon\Carbon::now()<= Carbon\Carbon::create(2025,2,15,0,0,0,'America/Chicago')))
                 <h3 class="text-2xl font-bold text-pink-600 mb-4">Early Bird Registration December 9 - February 14</h3>
-            @elseif((Carbon\Carbon::now()<= Carbon\Carbon::create(2025,5,17,0,0,0,'America/Chicago')))
-                <h3 class="text-2xl font-bold text-pink-600 mb-4">Regular Registration February 15 - April 6</h3>
+            @elseif((Carbon\Carbon::now()<= Carbon\Carbon::create(2025,6,1,0,0,0,'America/Chicago')))
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Regular Registration February 15 - May 31</h3>
             @else
-                <h3 class="text-2xl font-bold text-pink-600 mb-4">Late Registration April 3 - Conference Dates</h3>
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Late Registration June 1 - Conference Dates</h3>
             @endif
             <div x-data="{registration:false, hotel:false}" class="grid grid-cols-2 gap-4">
                 <div class="w-1/2">
